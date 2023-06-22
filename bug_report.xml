@@ -1,1 +1,16 @@
 
+<bug_report>
+  <title>Incorrect Placement of 'Start' Button</title>
+  <steps_to_reproduce>
+    <step>Open the application on a smartphone.</step>
+    <step>Navigate to the main screen.</step>
+    <step>Observe the position of the 'Start' button.</step>
+  </steps_to_reproduce>
+  <expected_result>The 'Start' button should be positioned at the bottom of the screen.</expected_result>
+  <actual_result>The 'Start' button is located in the center of the screen.</actual_result>
+  <screenshot>attached screenshot or provide a detailed description</screenshot>
+  <device_info>
+    <device_name>iPhone XR</device_name>
+    <operating_system>iOS 16.5</operating_system>
+  </device_info>
+</bug_report>
