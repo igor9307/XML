@@ -1,0 +1,65 @@
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер -> git clone https://github.com/igor9307/XML.git
+ 23. Внутри локального XML создать файл “new.xml” -> touch new.xml
+ 24. Добавить файл под гит ->  git add new.xml
+ 25. Закоммитить файл -> git commit -m "About_Me4"
+ 26. Отправить файл на внешний GitHub репозиторий -> git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML ->
+cat > new.xml
+<user>
+  <full_name>Aleksandrov Igor Valerievich</full_name>
+  <age>29</age>
+  <number_of_pets>1</number_of_pets>
+  <desired_salary>70000</desired_salary>
+</user>
+ 28. Отправить изменения на внешний репозиторий -> > git commit -a -m "About_Me5"
+ 29. Создать файл preferences.xml -> touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML ->
+cat > preferences.xml
+<user>
+  <favorite_movie>The Shawshank Redemption</favorite_movie>
+  <favorite_tv_show>Breaking bad</favorite_tv_show>
+  <favorite_food>Pilaf</favorite_food>
+  <favorite_season>Summer</favorite_season>
+  <desired_travel_destination>China</desired_travel_destination>
+</user>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML -> touch skills.xml
+cat > skills.xml
+<data>
+  <a>client-server architecture</a>
+  <b>HTTP Methods</b>
+  <c>Postman</c>
+  <d>Removing and reading logs</d>
+  <e>Charles</e>
+  <f>Dev Tools</f>
+  <g>Mobile testing</g>
+  <h>GitBash</h>
+  <i>SQL</i>
+  <j>Jmeter</j>
+</data>
+
+ 32. Сделать коммит в одну строку ->  git add.&& git commit -m "Preferences and Skills"
+ 33. Отправить сразу 2 файла на внешний репозиторий -> git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML -> 
+<bug_report>
+  <title>Incorrect Placement of 'Start' Button</title>
+  <steps_to_reproduce>
+    <step>Open the application on a smartphone.</step>
+    <step>Navigate to the main screen.</step>
+    <step>Observe the position of the 'Start' button.</step>
+  </steps_to_reproduce>
+  <expected_result>The 'Start' button should be positioned at the bottom of the screen.</expected_result>
+  <actual_result>The 'Start' button is located in the center of the screen.</actual_result>
+  <screenshot>attached screenshot or provide a detailed description</screenshot>
+  <device_info>
+    <device_name>iPhone XR</device_name>
+    <operating_system>iOS 16.5</operating_system>
+  </device_info>
+</bug_report>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML ->  git pull https://github.com/igor9307/XML.git
