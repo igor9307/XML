@@ -1,0 +1,4 @@
+Aleksandrov Igor Valerievich
+age - 29
+number of pets - 1
+desired salary - 70000
